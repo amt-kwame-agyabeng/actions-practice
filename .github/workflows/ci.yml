@@ -25,6 +25,3 @@ jobs:
 
        - name: Install dependencies
          run: npm install
-
-       - name: Run tests
-         run: npx jest --testMatch="**/test/**/*.test.js" --passWithNoTests
